@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="transibitorpack.dasboardAdminController">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="222.0" styleClass="secondary-background" stylesheets="@style.css">
+         <children>
+            <Button layoutX="6.0" layoutY="362.0" mnemonicParsing="false" onAction="#handleLogout" prefHeight="26.0" prefWidth="92.0" styleClass="LogOutAButton" text="Log Out" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Button fx:id="btnCS" contentDisplay="BOTTOM" layoutX="24.0" layoutY="185.0" mnemonicParsing="false" onAction="#costumerServiceHandleButton" text="Customer Service">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets></Button>
+      <Button fx:id="btnKonten" contentDisplay="BOTTOM" layoutX="24.0" layoutY="228.0" mnemonicParsing="false" onAction="#kontenHandleButton" prefHeight="26.0" prefWidth="114.0" text="Konten">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets></Button>
+      <Label layoutX="27.0" layoutY="131.0" text="ADMIN" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="96.0" text="DASBOARD" textFill="WHITE">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="318.0" fitWidth="318.0" layoutX="254.0" layoutY="27.0">
+         <image>
+            <Image url="@../vertical%20blue.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

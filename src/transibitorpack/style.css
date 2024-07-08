@@ -1,0 +1,50 @@
+/* Set the default font to Roboto Mono */
+.root {
+    -fx-font-family: 'Roboto Mono';
+}
+
+/* Set the background color of the main scene */
+.root {
+    -fx-background-color: #161618;;
+}
+
+.table {
+    -fx-background-color: #12222E;
+    -fx-text-fill: white;
+}
+
+/* Style for secondary background elements */
+.secondary-background {
+    -fx-background-color: #1f1f21;
+}
+
+.third-background {
+    -fx-background-color: #3870FF;
+}
+
+/* Style for buttons */
+.button {
+    -fx-background-color: #4C7DFE;
+    -fx-text-fill: white; /* Optional: sets the text color on buttons */
+}
+
+/* Style for hovered buttons (optional) */
+.button:hover {
+    -fx-background-color: #3A63D9;
+}
+
+/* Style for pressed buttons (optional) */
+.button:pressed {
+    -fx-background-color: #2949A6;
+}
+
+.feedbackButton{
+    -fx-background-color:#161618;;
+    
+}
+
+.LogOutAButton{
+    -fx-background-color:#1f1f21;
+    
+}
+

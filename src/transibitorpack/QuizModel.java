@@ -18,7 +18,7 @@ public class QuizModel {
 
     private void loadQuestionsFromXml() {
         try {
-            String xmlFilePath = "/Transibitor/quiz_data.xml";
+            String xmlFilePath = "/transibitorpack/quiz_data.xml";
             URL xmlUrl = getClass().getResource(xmlFilePath);
             if (xmlUrl == null) {
                 System.err.println("XML file not found: " + xmlFilePath);

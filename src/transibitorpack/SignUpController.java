@@ -71,7 +71,7 @@ public class SignUpController {
 
     private void redirectToSignIn() {
         try {
-            Parent loginRoot = FXMLLoader.load(getClass().getResource("/Transibitor/FXMLLogin.fxml"));
+            Parent loginRoot = FXMLLoader.load(getClass().getResource("FXMLLogin.fxml"));
             Stage stage = (Stage) usernameField.getScene().getWindow();
             stage.setScene(new Scene(loginRoot));
             stage.setTitle("Login");

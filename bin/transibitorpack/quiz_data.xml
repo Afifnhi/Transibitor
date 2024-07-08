@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
     <item>
-        <video>Kuda.mp4</video>
+        <video>file:///Users/afif/Documents/Afif/FPA/BackUpTransibitor/src/transibitorpack/Video/Kuda.mp4</video>
         <correct_answer>Kuda</correct_answer>
         <options>
             <option>Kuda</option>

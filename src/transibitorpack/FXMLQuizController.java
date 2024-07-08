@@ -82,7 +82,7 @@ public class FXMLQuizController {
 
     private void playVideo(String videoUrl) {
         try {
-            URL videoUrlPath = getClass().getResource("/Transibitor/Video/" + videoUrl);
+            URL videoUrlPath = getClass().getResource("/transibitorpack/Video/" + videoUrl);
             if (videoUrlPath == null) {
                 System.err.println("Video file not found: " + videoUrl);
                 return;
